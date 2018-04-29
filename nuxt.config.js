@@ -1,4 +1,11 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/startpage/'
+  }
+} : {}
+
 module.exports = {
+  ...routerBase,
   build: {},
   head: {},
   loading: { color: '#3B8070' },
