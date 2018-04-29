@@ -8,4 +8,11 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa'
   ],
+  css: [
+    'tachyons/css/tachyons.css',
+    '~/assets/style.scss',
+  ],
+  build: {
+    extractCSS: true,
+  },
 }
