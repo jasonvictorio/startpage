@@ -1,8 +1,8 @@
 <template>
-  <section>
-    <ul v-for="(linkGroup, i) in linkGroups" :key="i">
+  <section class="pa4">
+    <ul v-for="(linkGroup, i) in linkGroups" :key="i" class="mb4">
       <li v-for="(link, j) in linkGroup" :key="j">
-        <a :href="link.link">{{ link.label }}</a>
+        <a :href="link.link" class="link black db pa1 dim">{{ link.label }} <span class="silver">{{ link.link }}</span></a>
       </li>
     </ul>
   </section>
@@ -28,6 +28,10 @@ export default {
         {
           label: 'Drive',
           link: 'https://drive.google.com/drive/',
+        },
+        {
+          label: 'Photos',
+          link: 'https://photos.google.com/',
         },
       ],
       [
