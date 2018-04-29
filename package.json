@@ -1,7 +1,7 @@
 {
-  "name": "my-project",
+  "name": "startpage",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "Jason Victorio's startpage",
   "author": "Jason Victorio <jgvictorio@gmail.com>",
   "private": true,
   "dependencies": {
