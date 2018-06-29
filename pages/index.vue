@@ -87,6 +87,10 @@ export default {
           label: 'r/BlackPeopleTwitter',
           link: 'https://www.reddit.com/r/BlackPeopleTwitter',
         },
+        {
+          label: 'r/webdev',
+          link: 'https://www.reddit.com/r/webdev',
+        },
       ],
       [
         {
