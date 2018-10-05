@@ -37,6 +37,7 @@ export default {
         { label: 'Straightline', link: 'http://bm.straightline.jp' },
         { label: 'Siiimple', link: 'https://siiimple.com/' },
         { label: 'Behance', link: 'https://www.behance.net/' },
+        { label: 'Google Fonts', link: 'https://fonts.google.com/' },
         { label: 'Lorem ipsum', link: 'https://loremipsum.io/' },
       ],
       [
