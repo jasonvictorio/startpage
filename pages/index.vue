@@ -15,6 +15,7 @@ export default {
       [
         { label: 'Facebook', link: 'https://web.facebook.com' },
         { label: 'Gmail', link: 'https://mail.google.com/' },
+        { label: 'GitHub', link: 'https://github.com/' },
         { label: 'Keep', link: 'https://keep.google.com' },
         { label: 'Drive', link: 'https://drive.google.com/drive/' },
         { label: 'Photos', link: 'https://photos.google.com/' },
